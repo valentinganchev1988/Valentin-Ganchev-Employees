@@ -50,7 +50,7 @@ employess)
 
 #### Repository URL
 ```
-https://github.com/ivelin1936/Ivelin-Dimitrov-employees.git
+https://github.com/valentinganchev1988/Valentin-Ganchev-Employees.git
 ```
 
 ## Technologies
