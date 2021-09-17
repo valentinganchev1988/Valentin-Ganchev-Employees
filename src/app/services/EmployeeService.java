@@ -1,4 +1,4 @@
-package app.serveces;
+package app.services;
 
 import app.model.Record;
 import app.model.Team;

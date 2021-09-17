@@ -7,8 +7,8 @@ import app.io.FileIOImpl;
 import app.io.Writer;
 import app.repository.EmployeeRepository;
 import app.repository.EmployeeRepositoryImpl;
-import app.serveces.EmployeeService;
-import app.serveces.EmployeeServiceImpl;
+import app.services.EmployeeService;
+import app.services.EmployeeServiceImpl;
 
 public class TeamLongestPeriodMain {
     public static void main(String[] args) {

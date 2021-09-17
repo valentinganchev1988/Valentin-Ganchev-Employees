@@ -1,4 +1,4 @@
-package app.serveces;
+package app.services;
 
 import app.factories.TeamFactory;
 import app.model.Record;
@@ -39,7 +39,7 @@ public class EmployeeServiceImpl implements EmployeeService {
                 Record firstEmpl = allRecords.get(i);
                 Record secondEmpl = allRecords.get(j);
 
-                if (firstEmpl.getProjectId() == secondEmpl.getProjectId()
+                if (firstEmpl.getProjectId().equals(secondEmpl.getProjectId())
                         && hasOverlap(firstEmpl, secondEmpl)) {
                     long overlapDays = calculateOverlap(firstEmpl, secondEmpl);
 
